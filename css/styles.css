@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#title {
+  padding: 20px 20px 0 20px;
+  color: #05225c;
+}
+#bar {
+  width: 100%;
+  background-color: #05225c;
+  height: 100px;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  padding: 30px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.square {
+  background-color: #92278f;
+  width: 350px;
+  margin-bottom: 40px;
+  height: 175px;
+}
